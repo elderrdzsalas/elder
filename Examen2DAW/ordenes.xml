@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+<?xml-stylesheet type="text/xsl" href="ordenesElderRodriguez.xsl"?>
+<compras>
+    <orden id="1">
+        <nombreCliente>
+           <nombre>Juan</nombre>
+           <apellido>Alba</apellido>
+        </nombreCliente>
+        <saldo>10000</saldo>
+        <fecha>15/01/2014</fecha>
+    </orden>
+     <orden id="2">
+        <nombreCliente>
+          <nombre>Miguel</nombre>
+          <apellido>Garcia</apellido>
+        </nombreCliente>
+        <saldo>10000</saldo>
+        <fecha>17/01/2012</fecha>
+    </orden>    
+</compras>

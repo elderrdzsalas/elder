@@ -1,0 +1,33 @@
+
+<html>
+  <head>
+    <title>Car Picker</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <?php include "header.php";?>
+      <h2 align="center">Car Picker</h2>
+      <form action="" id="fx">
+          <p><label for="emailAddr">Email Address: <input id="emailAddr" type="text" size="30" class="reqd"/></label></p> 
+          <p><label for="color">Colors: 
+            <select id="color" class="reqd">
+                <option value="" selected="selected"> Choose a color</option>
+                <option value="Red">Red</option>
+                <option value="Green">Green</option>
+                <option value="Blue">Blue</option>
+            </select>
+          </label></p>
+          <p>Options:
+            <label for="pWindows"><input type="checkbox" id="pWindows" value="Yes"/>Power Windows</label>
+          </p>
+          <p><label for="DoorCtL">Doors:&nbsp;&nbsp;
+            <input type="radio" id="twoDoor" name="DoorCtl" value="twoDoor" class="radio" />Two
+            <input type="radio" id="fourDoor" name="DoorCtl" value="fourDoor" class="radio" />Four
+          </label></p>
+          <p><label for="zip"> Enter your Zip code: <br />
+                Zip: <input id="zip" type="text" size="5" maxlength="5" class="isZip dealerlist" />             
+          </label> </p>
+          <p><input type="submit" value="Submit"  />&nbsp;<input type="reset" /></p>
+      </form>
+  </body>
+</html>
